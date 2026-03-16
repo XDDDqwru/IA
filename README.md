@@ -259,7 +259,51 @@ Sara,22,Córdoba
 * **Análisis:** Es el formato estándar en el que Pandas suele "leer" la información para empezar a trabajar con ella.
 
 
+---
+
+### 1. ¿Qué es un Dataset? (El concepto global)
+
+Un **Dataset** (o conjunto de datos) es un concepto amplio. Se refiere a **toda la colección de información** que vas a utilizar para un propósito específico.
+
+* **Naturaleza:** Puede ser un archivo CSV, una tabla en una base de datos SQL, una carpeta llena de imágenes, o incluso un archivo JSON.
+* **Contexto:** Si estás haciendo un proyecto sobre el clima, tu "dataset" es toda la información meteorológica histórica que conseguiste.
+* **Analogía:** Imagina una **biblioteca entera**. La biblioteca es tu *dataset*; es el contenedor de toda la información disponible para tu investigación.
 
 ---
+
+### 2. ¿Qué es un DataFrame? (La herramienta de trabajo)
+
+Un **DataFrame** es la **estructura de datos específica** que utiliza la librería *Pandas* para representar y manipular ese dataset dentro de la memoria de tu computadora.
+
+Es la forma en que Python "entiende" y organiza los datos para que puedas trabajar con ellos.
+
+* **Estructura:** Es bidimensional (como una tabla de Excel), con filas (registros) y columnas (variables).
+* **Ventaja:** Permite realizar operaciones complejas, como filtrar datos, hacer cálculos rápidos, manejar valores faltantes o combinar tablas.
+* **Analogía:** Si el dataset es la biblioteca, el **DataFrame es el libro específico que abriste en tu escritorio** para poder leer, subrayar y hacer anotaciones en sus páginas (filas) y capítulos (columnas).
+
+---
+
+### Tabla comparativa: Diferencias clave
+
+| Característica | Dataset | DataFrame |
+| --- | --- | --- |
+| **Definición** | Es el conjunto completo de información (el "qué"). | Es el objeto de software para manipular datos (el "cómo"). |
+| **Formato** | Puede ser cualquier cosa (CSV, JSON, imagen, etc.). | Es una estructura de tabla en memoria. |
+| **Uso** | Se refiere al origen o la fuente. | Se refiere a la manipulación técnica en el código. |
+| **¿Quién lo crea?** | Se obtiene de fuentes externas. | Se crea en Python al cargar el dataset con Pandas. |
+
+---
+
+### ¿Cómo se conectan?
+
+El flujo de trabajo habitual es:
+
+1. Tienes un **Dataset** (archivo externo, ej: `ventas.csv`).
+2. Usas *Pandas* para cargar ese archivo: `df = pd.read_csv('ventas.csv')`.
+3. Ahora, **`df`** es tu **DataFrame**, y es ahí donde realizas todas tus operaciones y análisis.
+
+
+
+
 
 
