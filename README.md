@@ -132,3 +132,46 @@ Para cuando las 5 V que mencionamos antes entran en juego.
 Apache Spark: Para procesar datos a una velocidad increíble.
 
 Databricks: Una plataforma unificada para análisis y ML.
+
+
+
+
+
+
+## 1. Según sus Capacidades (El "qué" hace)
+
+Esta es la clasificación más común para entender qué tan "inteligente" es realmente una máquina.
+
+* **IA Estrecha o Débil (ANI):** Es la que usamos hoy en día. Está diseñada para una tarea específica (como jugar ajedrez, recomendarte música en Spotify o reconocer tu cara). No puede hacer nada fuera de su "especialidad".
+* **IA General (AGI):** Es el nivel en el que una máquina tendría la capacidad intelectual de un ser humano. Podría aprender, razonar y adaptarse a cualquier tarea. **Aún no existe**, aunque es el gran objetivo de la industria.
+* **Superinteligencia Artificial (ASI):** El escenario de ciencia ficción. Una inteligencia que supera con creces la capacidad humana en todos los sentidos.
+
+---
+
+## 2. Según su Funcionalidad (El "cómo" lo hace)
+
+Aquí vemos cómo procesan la información:
+
+* **Máquinas Reactivas:** No tienen memoria. Solo reaccionan ante estímulos actuales. Ejemplo clásico: *Deep Blue*, la computadora que venció a Kasparov en ajedrez.
+* **Memoria Limitada:** Pueden aprender de datos históricos para tomar decisiones. Casi toda la IA moderna (como los coches autónomos o ChatGPT) entra aquí.
+* **Teoría de la Mente:** IA que entiende emociones y pensamientos humanos para interactuar socialmente. (En desarrollo experimental).
+* **Autoconciencia:** El nivel máximo, donde la IA tendría conciencia de sí misma. (Teórico).
+
+---
+
+## 3. Las Estrellas del Momento (Por uso práctico)
+
+Si escuchas noticias sobre IA, probablemente se refieran a estos términos:
+
+| Tipo | ¿Qué hace? | Ejemplo |
+| --- | --- | --- |
+| **IA Generativa** | Crea contenido nuevo (texto, imagen, audio). | **ChatGPT, Midjourney, Gemini.** |
+| **Aprendizaje Automático (Machine Learning)** | Algoritmos que mejoran con la experiencia. | Filtros de spam de tu correo. |
+| **Procesamiento de Lenguaje Natural (NLP)** | Entiende y genera lenguaje humano. | Traductores automáticos y asistentes de voz. |
+| **Visión Artificial** | Permite a las máquinas "ver" y entender imágenes. | Desbloqueo facial del móvil. |
+
+---
+
+> **Dato curioso:** Aunque parezca que "piensan", la mayoría de las IAs actuales son en realidad maestros de la estadística y la predicción de patrones.
+
+¿Te gustaría que profundizara en alguna de estas categorías o que te explique cómo funciona la **IA Generativa** que usamos para hablar tú y yo ahora mismo?
