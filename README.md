@@ -174,5 +174,52 @@ Si escuchas noticias sobre IA, probablemente se refieran a estos términos:
 | **Procesamiento de Lenguaje Natural (NLP)** | Entiende y genera lenguaje humano. | Traductores automáticos y asistentes de voz. |
 | **Visión Artificial** | Permite a las máquinas "ver" y entender imágenes. | Desbloqueo facial del móvil. |
 
+
+
+
+
+## 1. NumPy: El motor matemático
+
+**NumPy** (Numerical Python) es la base de casi todo. Sirve para realizar cálculos numéricos complejos de forma extremadamente rápida.
+
+* **¿Su secreto?** Los **arrays** (matrices). A diferencia de las listas comunes de Python, los arrays de NumPy permiten hacer operaciones matemáticas en bloque (vectorización).
+* **¿Para qué sirve?** Álgebra lineal, transformaciones matemáticas y manejo de grandes volúmenes de números.
+* **Ejemplo:** Si quieres multiplicar 1,000,000 de números por 2, NumPy lo hace casi instantáneamente mientras que Python "puro" tardaría mucho más.
+
+---
+
+## 2. Pandas: La navaja suiza de los datos
+
+**Pandas** es probablemente la librería más querida. Su función principal es la manipulación y el análisis de datos estructurados.
+
+* **¿Su secreto?** El **DataFrame**. Imagina una hoja de Excel súper potente dentro de tu código.
+* **¿Para qué sirve?** * Cargar archivos (CSV, Excel, SQL).
+* Limpiar datos (quitar filas vacías, corregir errores).
+* Filtrar, agrupar y fusionar tablas de datos.
+
+
+* **Ejemplo:** Tienes un archivo con 50,000 ventas y quieres saber cuál fue el producto más vendido en cada ciudad; Pandas lo hace con una sola línea de código.
+
+---
+
+## 3. Matplotlib: El artista del grupo
+
+**Matplotlib** es la librería estándar para la visualización de datos. Si no puedes ver los datos, no puedes entenderlos.
+
+* **¿Su secreto?** Un control total sobre cada píxel del gráfico.
+* **¿Para qué sirve?** Crear gráficos de líneas, barras, histogramas, diagramas de dispersión y mucho más.
+* **Ejemplo:** Después de procesar tus datos con Pandas, usas Matplotlib para generar un gráfico de barras que muestre el crecimiento de tus ventas mes a mes.
+
+---
+
+## ¿Cómo trabajan juntas?
+
+En un proyecto real, suelen formar una cadena de montaje:
+
+1. **NumPy** se encarga de los cálculos pesados de fondo.
+2. **Pandas** organiza esos datos en tablas legibles para que tú puedas trabajar.
+3. **Matplotlib** toma esas tablas y las convierte en una imagen que cualquiera pueda entender.
+
+
 ---
 
