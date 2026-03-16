@@ -221,5 +221,45 @@ En un proyecto real, suelen formar una cadena de montaje:
 3. **Matplotlib** toma esas tablas y las convierte en una imagen que cualquiera pueda entender.
 
 
+
+
+
+
+
+## 1. ¿Qué es `pip`?
+
+**`pip`** es el gestor de paquetes estándar de Python.
+
+Piensa en Python como un teléfono inteligente recién comprado: trae las funciones básicas (llamar, enviar mensajes), pero si quieres hacer cosas más interesantes (jugar, editar fotos, gestionar finanzas), necesitas descargar aplicaciones de una tienda como la App Store o Google Play.
+
+* **¿Cómo funciona?** Cuando necesitas una librería (como *Pandas*, *NumPy* o *Matplotlib* que mencionamos antes), simplemente escribes en tu terminal: `pip install nombre-de-la-librería`.
+* **¿Qué hace?** `pip` se conecta automáticamente al **PyPI** (Python Package Index), busca la librería, la descarga y la instala en tu computadora para que puedas usarla en tus programas.
+
 ---
+
+## 2. ¿Qué es un CSV?
+
+**CSV** significa *Comma-Separated Values* (Valores Separados por Comas). Es, básicamente, el formato más universal para guardar datos.
+
+A diferencia de un archivo de Excel (`.xlsx`), que es complejo y tiene muchas pestañas y formatos, un archivo `.csv` es **texto plano**. Puedes abrirlo con cualquier editor de texto (como el Bloc de notas).
+
+* **¿Cómo se ve?** Imagina una tabla; el CSV guarda cada fila en una línea y separa las columnas con una coma.
+
+```text
+Nombre,Edad,Ciudad
+Ana,28,Madrid
+Luis,35,Bogotá
+Sara,22,Córdoba
+
+```
+
+* **¿Por qué es tan importante?**
+* **Portabilidad:** Todos los programas del mundo (Excel, bases de datos, Python, R, aplicaciones web) saben leer archivos CSV.
+* **Ligereza:** Al ser solo texto, ocupan poquísimo espacio comparado con formatos binarios más pesados.
+* **Análisis:** Es el formato estándar en el que Pandas suele "leer" la información para empezar a trabajar con ella.
+
+
+
+---
+
 
