@@ -11,15 +11,19 @@ La IA es el concepto más amplio. Es la disciplina dentro de la informática que
  
 Se suelen agrupar en cuatro categorías principales:
 
-A. Aprendizaje Supervisado (Supervised Learning)Es como aprender con un profesor. Le das al modelo datos que ya tienen la "respuesta correcta" (etiquetas).Ejemplo: Le enseñas 1,000 fotos de gatos y le dices "esto es un gato". Luego, cuando vea una foto nueva, sabrá identificarlo.
-
+A. Aprendizaje Supervisado (Supervised Learning)Es como aprender con un profesor. Le das al modelo datos que ya tienen la "respuesta correcta" (etiquetas).
+Ejemplo: Le enseñas 1,000 fotos de gatos y le dices "esto es un gato". Luego, cuando vea una foto nueva, sabrá identificarlo.
 Uso común: Detección de spam en correos, predicción de precios de casas.
 
-B. Aprendizaje No Supervisado (Unsupervised Learning) Aquí la máquina no tiene guía ni etiquetas. Su trabajo es encontrar estructuras o grupos ocultos por su cuenta.Ejemplo: Le das datos de miles de clientes y la IA los agrupa por "comportamientos similares" sin que tú le digas qué categorías buscar.
-
+B. Aprendizaje No Supervisado (Unsupervised Learning) Aquí la máquina no tiene guía ni etiquetas. Su trabajo es encontrar estructuras o grupos ocultos por su cuenta.
+Ejemplo: Le das datos de miles de clientes y la IA los agrupa por "comportamientos similares" sin que tú le digas qué categorías buscar.
 Uso común: Segmentación de mercado, sistemas de recomendación (como Netflix).
 
-C. Aprendizaje por Refuerzo (Reinforcement Learning)Se basa en el sistema de ensayo y error. El modelo recibe una "recompensa" si hace algo bien y un "castigo" (o puntaje negativo) si lo hace mal.Ejemplo: Una IA aprendiendo a jugar ajedrez o a conducir un coche autónomo. Aprende qué decisiones la llevan a ganar o a no chocar.Uso común: Robótica y videojuegos.D. Aprendizaje SemisupervisadoEs un punto medio. Se usa una pequeña cantidad de datos etiquetados y una gran cantidad de datos sin etiquetar. Es muy útil cuando etiquetar datos es muy caro o lento para los humanos.
+C. Aprendizaje por Refuerzo (Reinforcement Learning)Se basa en el sistema de ensayo y error. El modelo recibe una "recompensa" si hace algo bien y un "castigo" (o puntaje negativo) si lo hace mal.
+Ejemplo: Una IA aprendiendo a jugar ajedrez o a conducir un coche autónomo. Aprende qué decisiones la llevan a ganar o a no chocar.
+Uso común: Robótica y videojuegos.
+
+D. Aprendizaje Semisupervisado Es un punto medio. Se usa una pequeña cantidad de datos etiquetados y una gran cantidad de datos sin etiquetar. Es muy útil cuando etiquetar datos es muy caro o lento para los humanos.
 
 
 
@@ -172,6 +176,3 @@ Si escuchas noticias sobre IA, probablemente se refieran a estos términos:
 
 ---
 
-> **Dato curioso:** Aunque parezca que "piensan", la mayoría de las IAs actuales son en realidad maestros de la estadística y la predicción de patrones.
-
-¿Te gustaría que profundizara en alguna de estas categorías o que te explique cómo funciona la **IA Generativa** que usamos para hablar tú y yo ahora mismo?
