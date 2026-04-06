@@ -307,3 +307,74 @@ El flujo de trabajo habitual es:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. El atributo .dtypes
+El atributo .dtypes es como una "radiografía rápida". Su única función es devolverte el tipo de datos de cada columna de tu DataFrame.
+
+¿Qué hace?: Lista los nombres de las columnas y el tipo de dato asociado (entero, flotante, objeto/texto, etc.).
+
+¿Cuándo usarlo?: Cuando solo necesitas saber si una columna es numérica o de texto para realizar una operación matemática.
+
+Nota técnica: Es un atributo, no una función, por lo que no lleva paréntesis () al final.
+
+Ejemplo de salida:
+
+Python
+df.dtypes
+
+# Resultado:
+# Edad          int64
+# Nombre       object
+# Precio      float64
+# dtype: object
+2. El método .info()
+El método .info() es mucho más completo. Es un resumen ejecutivo de todo tu conjunto de datos.
+
+¿Qué hace?: Te proporciona una visión técnica global que incluye:
+
+El índice (cuántas filas hay).
+
+El número total de columnas.
+
+El conteo de valores no nulos (útil para detectar datos faltantes).
+
+El tipo de dato de cada columna (lo mismo que hace .dtypes).
+
+El uso de memoria RAM que ocupa el DataFrame.
+
+¿Cuándo usarlo?: Siempre que cargues un archivo por primera vez para ver si faltan datos o si el archivo es demasiado pesado.
+
+Ejemplo de salida:
+
+Python
+df.info()
+
+# Resultado:
+# RangeIndex: 100 entries, 0 to 99
+# Data columns (total 3 columns):
+#  #   Column  Non-Null Count  Dtype  
+# ---  ------  --------------  -----  
+#  0   Edad    100 non-null    int64  
+#  1   Nombre  95 non-null     object 
+#  2   Precio  100 non-null    float64
+# dtypes: float64(1), int64(1), object(1)
+# memory usage: 2.5+ KB
